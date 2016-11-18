@@ -1,6 +1,10 @@
 #pragma once //Подключение файла один раз
 #include <iostream>
 using namespace std;
+//https://github.com/lame-student/lame-vector
+//Система контроля версий
+//VCS
+//Представители - git, hg, svn, csv
 /* 
 struct - ключевое слово
 Vector - имя класса(структуры)
