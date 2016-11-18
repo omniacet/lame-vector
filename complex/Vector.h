@@ -13,7 +13,7 @@ void setRe(float re); - методы
 */
 //class - поля по умолчанию приватные (private)
 //struct - поля по умолчанию публичные (public)
-class Vector {
+class Vector { //столбец
 private:
 	int dimension;//размерность
 	float* data;
@@ -26,6 +26,7 @@ public:
 	float operator*(const Vector& other);
 	int getDimension(); // Метод, возвращающий размерность объекта
 	float& operator[](int); // Оператор доступа к данным
+	Matrix operator*(Matrix&);
 };
 
 Vector operator*(float re, Vector& c);
