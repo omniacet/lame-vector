@@ -1,5 +1,6 @@
 #pragma once //Подключение файла один раз
 #include <iostream>
+#include "Matrix.h"
 using namespace std;
 //https://github.com/lame-student/lame-vector
 //Система контроля версий
@@ -11,6 +12,7 @@ Vector - имя класса(структуры)
 float re; - поля
 void setRe(float re); - методы
 */
+class Matrix;
 //class - поля по умолчанию приватные (private)
 //struct - поля по умолчанию публичные (public)
 class Vector { //столбец

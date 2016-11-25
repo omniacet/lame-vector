@@ -2,11 +2,6 @@
 
 #include "Vector.h"
 class Vector;
-/*
-	float*f = new float[1];
-	float**pf=&f;
-
-*/
 
 class Matrix
 {
@@ -24,6 +19,5 @@ public:
 	Matrix transpose(); // транспонированная
 
 };
-
-ostream& operator>>(ostream&, Matrix&);
-istream& operator<<(istream&, Matrix&);
+std::ostream& operator>>(std::ostream&, Matrix&);
+std::istream& operator<<(std::istream&, Matrix&);
